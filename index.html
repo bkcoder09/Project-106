@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Project 106</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&family=Stick+No+Bills:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <div class="header">
+                <h2>Animal Sound Classification</h2>
+                <p>Note: Plays Dog Barking, Bear Growling, Cat Meowing, and Cow Mooing</p>
+            </div>
+            <div id="main_div">
+                    <button id="start" onclick="startClassification()">Start</button>
+                    <br><br>
+                    <h4 id="result_label">Animal heard-</h4>
+                    <h3 id="result_confidence">Accuracy-</h3>
+                    <br><br><br><br>
+                    <img width="300" height="300" id="DaKity" src="DaKity.png">
+                    <img width="300" height="300" id="Doog" src="Doog.png">
+                    <img width="300" height="300" id="Milk" src="Milk.png">
+                    <img width="300" height="300" id="bear" src="bear.jpg">
+            </div>
+            <div class="footer"><h4 id="foot">Designed by-007</h4></div>
+    </body>
+    <script src="main.js"></script>
+</html>

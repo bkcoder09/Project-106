@@ -1,0 +1,45 @@
+.header{
+    background-color: #00EBEB;
+    color: #FF00C3;
+    font-family: PT Sans Narrow;
+}
+
+.header p{
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: PT Sans Narrow;
+    color: #FF00C3;
+}
+
+body{
+    background-color: fuchsia;
+    text-align: center;
+}
+
+#main_div{
+    color: #1500FF;
+    font-weight: bold;
+    font-family: Stick No Bills;
+}
+
+#start{
+    font-weight: bold;
+    width: 100px;
+    background-color: #FF6A00;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    color: Rubik Beastly;
+    font-size: 15;
+}
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
+    font-family: Gemunu Libre;
+    background-color: #3CFF00;
+    height: 50px;
+    letter-spacing: 2px;
+    text-shadow: 7px 7px 7px black;
+}
